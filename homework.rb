@@ -101,12 +101,18 @@ users = {
 # puts users["Avril"][:pets]["colin"]
 
 # 5. Return the smallest of Erik's favorite numbers
-puts users ["Erik"][:favourite_numbers].min
+# puts users ["Erik"][:favourite_numbers].min
 
 # 6. Add the number `7` to Erik's favorite numbers
+# users ["Erik"][:favourite_numbers].unshift(7)
+# puts users ["Erik"][:favourite_numbers]
 
 # 7. Change Erik's hometown to Edinburgh
+# users ["Erik"][:home_town] = "Edinburgh"
+# puts users ["Erik"][:home_town]
 
 # 8. Add a pet dog to Erik called "Fluffy"
+users ["Erik"][:pets]["Fluffy"] = :dog
+puts users ["Erik"][:pets]
 
 # 9. Add yourself to the users hash
