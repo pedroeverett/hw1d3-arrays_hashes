@@ -10,9 +10,11 @@ puts lines[1]
 
 # 3. How many ways can we return 'Princes Street' from the array?
 puts lines[4]
-puts 
+puts lines[-1]
+puts lines.last
 
 # 4. Work out the index position of 'Haymarket'
+puts lines.index('Haymarket')
 
 # 5. Add 'Airport' to the start of the array
 
