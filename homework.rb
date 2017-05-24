@@ -87,14 +87,21 @@ users = {
 
 # 1. Return Jonathan's Twitter handle (i.e. the string `"jonnyt"`)
 
-puts users["Jonathan"][:twitter]
+# puts users["Jonathan"][:twitter]
+
 # 2. Return Erik's hometown
+
+# puts users["Erik"][:home_town]
 
 # 3. Return the array of Erik's favorite numbers
 
+# puts users["Erik"][:favourite_numbers]
+
 # 4. Return the type of Avril's pet Colin
+# puts users["Avril"][:pets]["colin"]
 
 # 5. Return the smallest of Erik's favorite numbers
+puts users ["Erik"][:favourite_numbers].min
 
 # 6. Add the number `7` to Erik's favorite numbers
 
