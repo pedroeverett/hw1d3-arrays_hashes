@@ -112,7 +112,9 @@ users = {
 # puts users ["Erik"][:home_town]
 
 # 8. Add a pet dog to Erik called "Fluffy"
-users ["Erik"][:pets]["Fluffy"] = :dog
-puts users ["Erik"][:pets]
+# users ["Erik"][:pets]["Fluffy"] = :dog
+# puts users ["Erik"][:pets]
 
 # 9. Add yourself to the users hash
+users ["Pedro"] = [:pets]
+puts users
